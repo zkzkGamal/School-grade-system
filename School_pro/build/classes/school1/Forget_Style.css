@@ -1,0 +1,23 @@
+.label{
+    -fx-font : 14px "serief"; 
+    -fx-text-fill:darkred;
+     -fx-font-weight:bold;
+}
+.root{
+    -fx-background-color: linear-gradient(to bottom,#57BBCE ,#F2F2F4 ,#CA5135, transparent); 
+    -fx-alignment:center;  
+    -fx-background-radius: 40 0 60;  
+    -fx-font-color:red;
+}
+.button {  
+    -fx-font : 14px "serief";  
+    -fx-padding : 10;    
+    -fx-background-radius: 100;
+    -fx-cursor: hand;
+    -fx-background-color: linear-gradient(to top,#ff105f,#ffad06, transparent);
+} 
+.button:hover{
+        -fx-background-color : #CCFF99;
+        -fx-text-fill:darkred;
+        -fx-font-weight:bold;
+}

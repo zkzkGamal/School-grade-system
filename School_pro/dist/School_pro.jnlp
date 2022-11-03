@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="School_pro.jnlp">
+  <information>
+    <title>School_pro</title>
+    <vendor>aaa</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="School_pro.jar" size="765167" download="eager" />
+    <jar href="lib\ojdbc7.jar" size="3397734" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="School_pro" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="school1.School1"  name="School_pro" />
+  <update check="always"/>
+</jnlp>
